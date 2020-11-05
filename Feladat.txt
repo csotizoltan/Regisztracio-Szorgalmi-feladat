@@ -1,0 +1,30 @@
+Bootstrap form
+Határidő: 2020. október 21. 23:59
+Utasítások
+Készítsen adatbeviteli formot a BootStrap felhasználásával a következő adatok bevitelére:
+
+vezetéknév
+keresztnév
+irányítószám
+helység
+telefonszám
+email cím
+
+Az elrendezés áttekinthetősége is értékelésre kerül.
+
+Plusz másik (jó) jegyet lehet szerezni, ha a beírt adatokra ellenőrzést készít JQuery-ben!
+
+
+
+
+
+
+Űrlap formázás, validálás, adatmentés és megjelenítés (szorgalmi)
+Határidő: 2020. november 3. 23:59
+Utasítások
+Boros Sándor által kiírt form-os feladatból kiindulva fejlesszék tovább az űrlapot a úgy, hogy a bevitt adatokat validálás után adatbázisba mentik, s a bevitt adatot táblázatban megjelenítik a weboldalon.
+
+Ez egy szorgalmi feladat, tehát bár nem kötelező, de mivel ezzel foglalkozunk a soron következő alkalommal (és a záródolgozatban is kelleni fog), így érdemes elkészíteni.
+
+
+https://getbootstrap.com/docs/4.4/components/forms/

@@ -1,0 +1,155 @@
+body {
+	background-color: #e5e5ec
+}
+
+#title {
+	margin-top: 15px;
+	font-family: calibri;
+	font-size: 1.1em;
+	color: #040412;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 24px;
+	background-color: #a0b3ce;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	width: 800px;
+}
+
+
+/*-------------------------- Form --------------------------*/
+
+#person_form {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+span.form {
+  display: inline-block;
+  width: 440px;
+  height: 535px;
+  padding: 3px;
+  border-radius: 12px;
+  /*border: 1px solid brown;*/    
+  background-color: #c6ceda;  
+  margin-left: 22px;
+  margin-right: 20px;
+}
+
+#form_title {
+  font-family: calibri;
+  color: #684545;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-left: 175px;
+}
+
+.order-submit {
+  background-color: #E89104;
+  color: #ffffff;
+  padding: 10px 25px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+}
+
+#orderbutton {
+  margin-top: 15px;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number] {
+  background-color: #f4f4f4; /*#f2eae2*/ /*#f6f4f2*/ /*#ddcfc0*/ /*e6d9cc*/
+
+}
+
+input#order {
+	background: #df8378;
+	color: black;
+	font-family: calibri;
+	border-radius: 8px;
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: 28px;
+	margin-left: 205px;
+	width: 170px;
+	height: 30px;
+}
+
+input#order:hover {
+	background-color: #7140f0;
+	color: white;
+}
+
+
+
+/*-------------------------- Database messages --------------------------*/
+
+#registration_success {
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  font-family: calibri;
+  margin-left: 50px;
+  margin-top: 17px;
+  border-radius: 12px;
+}
+
+#registration_failed {
+  /*display: inline-block;*/
+  width: 400px;
+  height: auto;
+  font-family: calibri;
+  margin-left: 50px;
+  margin-top: 17px;
+  margin-bottom: 1px;
+  border-radius: 12px;
+}
+
+
+
+/*-------------------------- Registered --------------------------*/
+
+#ItemsPageReload {
+  margin-left: 854px; /*917px*/
+  margin-top: -70px;
+  width: 142px;
+}
+
+
+
+/*-------------------------- Footer --------------------------*/
+
+#footer {
+	background-color: #b2bbdd;
+	height: 44px;
+	margin-top: 90px;
+	font-size: 1.2em;
+	font-family: calibri;
+	font-weight: bold;
+	color: black;
+	padding-left: 15px;
+	line-height: 44px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer a:visited {
+	color: black;
+}
+
+.tab {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#tab_owner {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 70%;
+	font-weight: bold;
+}
