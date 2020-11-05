@@ -196,11 +196,11 @@
 				<div class="form-row">
 					<div class="form-group col-md-6">
 						<label for="vezeteknev">Vezetéknév</label>
-						<input type="text" class="form-control" id="vezeteknev" name="vezeteknev" placeholder="Vezetekneved...">
+						<input type="text" class="form-control" id="vezeteknev" name="vezeteknev" placeholder="Szép">
 					</div>
 					<div class="form-group col-md-6">
 						<label for="keresztnev">Keresztnév</label>
-						<input type="text" class="form-control" id="keresztnev" name="keresztnev" placeholder="Keresztneved...">
+						<input type="text" class="form-control" id="keresztnev" name="keresztnev" placeholder="Virág">
 					</div>
 				</div>
 
@@ -209,11 +209,11 @@
 				<div class="form-row">
 					<div class="form-group col-md-6">
 						<label for="iranyítoszam">Irányítószám</label>
-						<input type="number" class="form-control" id="iranyítoszam" name="iranyítoszam" placeholder="Irányítószámod...">
+						<input type="number" class="form-control" id="iranyítoszam" name="iranyítoszam" placeholder="1111">
 					</div>
 					<div class="form-group col-md-6">
 						<label for="helysegnev">Helységnév</label>
-						<input type="text" class="form-control" id="helysegnev" name="helysegnev" placeholder="Helységnév...">
+						<input type="text" class="form-control" id="helysegnev" name="helysegnev" placeholder="Budapest">
 					</div>
 				</div>
 
