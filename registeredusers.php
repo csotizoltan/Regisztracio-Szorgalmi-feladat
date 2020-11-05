@@ -93,7 +93,7 @@
 
 		#--------------- Regisztrált felhasznélók Filterable Table ---------------
 
-		echo "<div class='container mt-3'><div id='all_items_table'>";
+		echo "<div class='container mt-3'>";
 
 		echo "<h3>Regisztrált felhasználók</h3><button type='button' class='btn btn-primary' id='ItemsPageReload' onclick='PageReload()''>Frissítés</button>";
 		echo "<p>Kereshetsz a felhasználó nevére, irányítószámára, helységnévre, stb...</p>";

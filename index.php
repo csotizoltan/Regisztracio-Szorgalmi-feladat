@@ -131,6 +131,7 @@
 		function databaseConnection() {
 
 			$conn = new mysqli("localhost", "czoltan", "alma123", "czoltan");
+			mysqli_set_charset($conn,"utf8");
 
 			if ($conn->connect_error) {
 				die("Nem sikerült kapcsolódni az adatbázishoz!" . $conn->connect_error);
@@ -191,7 +192,7 @@
 
 			<br />
 
-			<form id="order_form" method="post" action="#">
+			<form method="post" action="#"><!-- action="registeredusers.php"> -->
 
 				<div class="form-row">
 					<div class="form-group col-md-6">
@@ -227,7 +228,7 @@
 					</div>
 					<div class="form-group col-md-6">
 						<label for="email">E-mail cím</label>
-						<input type="text" class="form-control" id="email" name="email" placeholder="valaki@valami.hu">
+						<input type="email" class="form-control" id="email" name="email" placeholder="valaki@valami.hu">
 					</div>
 				</div>
 
@@ -241,7 +242,7 @@
 				</div>
 
 				<div class="col-xs-12 text-center">
-					<button type="submit" name="submit" class="order-submit" id="orderbutton" value="delivery">Megrendelem</button>
+					<button type="submit" name="submit" class="order-submit" id="orderbutton" value="delivery">Regisztráció</button>
 				</div>
 			</form>
 
